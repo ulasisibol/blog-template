@@ -1,0 +1,106 @@
+body{
+    margin-left: 7% !important;
+    margin-right: 7% !important;
+    background-color: whitesmoke;
+    zoom: 0.9; 
+}
+h1{
+    font-size: 24px;
+    font-weight: bold;
+}
+h2{
+    font-size: 18px;
+
+}
+header{
+    margin: 2%;
+    nav{
+        margin-top: 2%;
+        .nav-link{
+            color: white !important;
+
+        }
+
+    }
+}
+.bg-primary{
+    background-color: #0fa5d9 !important;
+}
+.main{
+    display: flex;
+    .first-part{
+        background-color: white;
+        height: 200vh;
+        width: 100%;
+        margin: 2%;
+        padding: 8%;
+        h2{
+            text-align: center !important;
+            margin: 4%;
+            margin-top: 8%;
+        }
+        p{
+            margin-bottom: 2%;
+        }
+    }
+    .second-part{
+        height: 100px;
+        width: 36%;
+        margin: 2%;
+        .s-first{
+            color: gray;
+            background-color: white;
+            padding: 10% 6% 10% 6%;
+            .form-control{
+                border-radius: 0;
+            }
+            .btn:hover{
+                background-color: #0fa5d9 !important;
+                color: white;
+            }
+            .btn{
+                border-radius: 0;
+                border-color: #0fa5d9;
+                color: #0fa5d9;
+            }
+        }
+        .s-second{
+            margin-top: 8%;
+            background-color: white;
+            padding: 10% 6% 10% 6%;
+            h4{
+                color: gray;
+                margin-bottom: 3% !important;
+            }
+            ul{
+                li{
+                    list-style-type: none;
+                    margin-top: 10px;
+                    a{
+                        text-decoration: none;
+                        color: #0fa5d9;
+                    }
+                }
+            }
+        }
+        .s-third{
+            margin-top: 8%;
+            background-color: white;
+            padding: 10% 6% 10% 6%;
+            h4{
+                color: gray;
+                margin-bottom: 3%;
+            }
+            p{
+                font-size: small;
+                padding: 10% 4% 0% 4%;
+            }
+        }
+    }
+}
+
+@media (max-width: 800px){
+    .second-part{
+        display: none;
+    }
+}
